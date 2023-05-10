@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../layout/parking_layout.dart';
+import '../../../pages/main_page.dart';
 
 class loginButton extends StatelessWidget {
 
@@ -20,7 +21,7 @@ class loginButton extends StatelessWidget {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (BuildContext context) => const Layout(),
+            builder: (BuildContext context) => const MainPage(),
           ),
         );
       },

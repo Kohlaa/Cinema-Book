@@ -1,5 +1,6 @@
 
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:cinema_app_ui/homeScreen/login/screens/login.dart';
 import 'package:cinema_app_ui/pages/main_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const Test(),
       debugShowCheckedModeBanner: false,
-      home: const MainPage(),
+      home: LoginScreen(),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

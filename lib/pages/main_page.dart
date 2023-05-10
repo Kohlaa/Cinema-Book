@@ -66,7 +66,7 @@ class _MainPageState extends State<MainPage> {
               (index) => GestureDetector(
                     onTap: () {
                       setState(() {
-                        currentPage = index;
+                       currentPage = index;
                       });
                     },
                     child: Stack(

@@ -1,4 +1,4 @@
-import 'package:cinema_booking_app/homeScreen/register/registerComponents/checkBox.dart';
+import 'package:cinema_app_ui/homeScreen/register/registerComponents/checkBox.dart';
 import 'package:flutter/material.dart';
 import '../login/loginComponents/emailInputButton.dart';
 import '../login/loginComponents/loginButton.dart';

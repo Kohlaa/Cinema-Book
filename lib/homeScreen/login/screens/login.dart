@@ -35,14 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
           //crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-             // margin: const EdgeInsets.all(18),
-              height: 100.0,
-              width:100.0,
-              child: Center(
-                child: Image.asset('assets/images/cenima.png',fit: BoxFit.fill),
-              ),
-            ),
+
             Container(
               //margin: const EdgeInsets.all(18),
               height: 70.0,

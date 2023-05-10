@@ -1,4 +1,4 @@
-import 'package:cinema_booking_app/layout/bloc/states.dart';
+import 'package:cinema_app_ui/layout/bloc/states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
